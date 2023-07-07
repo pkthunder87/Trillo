@@ -24,7 +24,7 @@
 // USER NAVIGATION
 
 .user-nav {
-  &__icon-box {
+  &__icon--box {
   }
 
   &__icon {
@@ -38,11 +38,11 @@
   &__user {
   }
 
-  &__user-photo {
+  &__user--photo {
     height: 3.75rem;
     border-radius: 50%;
   }
 
-  &__user-name {
+  &__user--name {
   }
 }
