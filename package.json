@@ -14,6 +14,10 @@
     "compress:css": "sass --style=compressed css/main.prefix.css css/main.css",
     "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkthunder87/Trillo.git"
+  },
   "author": "Phala",
   "license": "ISC",
   "devDependencies": {
