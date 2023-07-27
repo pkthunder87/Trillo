@@ -166,6 +166,17 @@ body {
   align-items: center;
 }
 
+@media only screen and (max-width: 31.25em) {
+  .sticky {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 100;
+    margin-top: 0;
+    opacity: 0.95;
+  }
+}
+
 .logo {
   height: 3.25rem;
   margin-left: 2rem;
@@ -307,7 +318,7 @@ body {
   width: 3px;
   background-color: var(--color-primary);
   transform: scaleY(0);
-  transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s;
+  transition: transform 0.2s, width 0.3s cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s;
 }
 .side-nav__item:hover::before, .side-nav__item--active::before {
   transform: scaleY(1);
