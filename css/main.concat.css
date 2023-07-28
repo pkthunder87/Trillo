@@ -383,6 +383,13 @@ body {
 .gallery__photo {
   width: 100%;
   display: block;
+  transition: all 0.4s;
+}
+.gallery__photo:hover {
+  transform: scale(115%);
+}
+.gallery__item {
+  overflow: hidden;
 }
 
 .overview {

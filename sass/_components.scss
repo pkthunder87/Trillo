@@ -243,6 +243,15 @@
   &__photo {
     width: 100%;
     display: block;
+    transition: all 0.4s;
+
+    &:hover {
+      transform: scale(115%);
+    }
+  }
+
+  &__item {
+    overflow: hidden;
   }
 }
 
